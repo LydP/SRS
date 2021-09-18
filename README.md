@@ -45,7 +45,7 @@ At this point, simply exit the program.
 ### program.db
 The program.db file keeps a record of sessions. It contains the ```run_info``` table, which contains
 two columns: ```sess_begin``` and ```sess_count```. ```sess_begin``` stores the time at which the
-start button is clicked for each new session in the format MM:dd:yyyy:HH:mm:ss. MM:dd:yyyy:HH:mm:ss. This
+start button is clicked for each new session in the format MM:dd:yyyy:HH:mm:ss. This
 file is used to determine when to resume a previous session, start a new session, or both.
 
 ### Japanese.db
